@@ -64,5 +64,4 @@ def auth():
     return "Authentication failed", 401
 
 if __name__ == '__main__':
-	from waitress import serve
 	app.run(port=8080)
